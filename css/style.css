@@ -8,3 +8,86 @@ a{
     color: black; /* altera a cor de todos os links das páginas */
 }
 
+/* Topo */
+
+header{
+  padding: 3vw 10vw;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+header nav ul {
+  display: flex;
+}
+header nav ul li {
+  margin: 0 10px;
+}
+header nav ul li.atual a{
+color: #fb2e86;
+}
+section.banner{
+  display: flex;
+  background-color: #f2f0ff;
+  padding: 3vw 10vw;
+}
+section.banner div p.destaque {
+  color: #fb2e86;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 3vw 0 0 0;
+}
+section.banner div h2{
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin: 0.5vw 0 0 0;
+}
+section.banner p{
+  font-size: 1rem;
+  color: #8a8fb9;
+  font-weight: 600;
+  margin: 0.5vw 0 0 0;
+}
+section.banner div p button{
+  background-color: #fb2e86;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  color: white;
+  border-radius: 2px;
+  margin: 3vw 0 0 0;
+}
+section.banner div.imagens{
+  width: 35%;
+  margin: 0 0 0 10%;
+}
+section.produtos{
+  padding: 3vw 10vw;
+}
+section.produtos h2{
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #1a0b5b;
+  margin: 3vw;
+}
+section.produtos ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+section.produtos ul li{
+  width: 30%;
+}
+section.produtos ul li p{
+  background-color: #f7f7f7;
+  text-align: center;
+}
+section.produtos h3{
+  padding: 10px;
+  color: #1a0b5b;
+}
