@@ -3,57 +3,70 @@
   font-size: clamp(0.9375rem, 0.9119rem + 0.1136vw, 1rem);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-a{
-    text-decoration: none; /* remove o sublinhado dos links */
-    color: black; /* altera a cor de todos os links das páginas */
+
+a {
+  text-decoration: none;
+  /* remove o sublinhado dos links */
+  color: black;
+  /* altera a cor de todos os links das páginas */
 }
 
 /* Topo */
 
-header{
+header {
   padding: 3vw 10vw;
 }
+
 header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 header nav h1 {
   font-size: 1.5rem;
   font-weight: bold;
 }
+
 header nav ul {
   display: flex;
 }
+
 header nav ul li {
   margin: 0 10px;
 }
-header nav ul li.atual a{
-color: #fb2e86;
+
+header nav ul li.atual a {
+  color: #fb2e86;
 }
-section.banner{
+
+section.banner {
   display: flex;
   background-color: #f2f0ff;
   padding: 3vw 10vw;
 }
+
 section.banner div p.destaque {
   color: #fb2e86;
   font-weight: bold;
   font-size: 1rem;
   margin: 3vw 0 0 0;
 }
-section.banner div h2{
+
+section.banner div h2 {
   font-weight: bold;
   font-size: 2.5rem;
   margin: 0.5vw 0 0 0;
 }
-section.banner p{
+
+section.banner p {
   font-size: 1rem;
   color: #8a8fb9;
   font-weight: 600;
   margin: 0.5vw 0 0 0;
 }
-section.banner div p button{
+
+section.banner div p button {
   background-color: #fb2e86;
   padding: 10px 20px;
   font-size: 1.2rem;
@@ -61,33 +74,93 @@ section.banner div p button{
   border-radius: 2px;
   margin: 3vw 0 0 0;
 }
-section.banner div.imagens{
+
+section.banner div.imagens {
   width: 35%;
   margin: 0 0 0 10%;
 }
-section.produtos{
+
+section.produtos {
   padding: 3vw 10vw;
 }
-section.produtos h2{
+
+section.produtos h2 {
   text-align: center;
   font-size: 2.5rem;
   font-weight: bold;
-  color: #1a0b5b;
+  color: #151875;
   margin: 3vw;
 }
-section.produtos ul{
+
+section.produtos ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-section.produtos ul li{
+
+section.produtos ul li {
   width: 30%;
 }
-section.produtos ul li p{
+
+section.produtos ul li p {
   background-color: #f7f7f7;
   text-align: center;
 }
-section.produtos h3{
+
+section.produtos ul li h3 {
   padding: 10px;
-  color: #1a0b5b;
+  color: #151875;
+}
+
+section.invite {
+  padding: 3vw 37vw;
+  background: url(../src/images/back-section-update.png);
+  text-align: center;
+  background-position: center;
+}
+
+section.invite h2 {
+  font-size: 1.7rem;
+  color: #151875;
+  font-weight: bold;
+}
+
+section.invite p button {
+  background-color: #fb2e86;
+  border-radius: 2px;
+  padding: 10px 30px;
+  font-size: 1.1rem;
+  color: white;
+  margin: 2vw;
+  transition: all 0.3s ease;
+}
+
+section.invite p button:hover {
+  transform: translateY(-5px);
+}
+footer {
+display: flex;
+justify-content: space-between;
+padding: 3vw 10vw;
+background-color: #eeeffb;
+}
+footer div h2{
+  font-size: 2.2rem;
+  font-weight: bold;
+  padding: 0 0 12px 0;
+}
+footer div p {
+  padding: 6px;
+  color: #8a8fb9;
+}
+footer div h3 {
+ font-size: 1.3rem;
+ font-weight: bold;
+ padding: 0 0 15px 0;
+}
+footer div nav ul li{
+  padding: 10px;
+}
+footer div nav ul li a {
+  color: #8a8fb9;
 }
